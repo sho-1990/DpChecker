@@ -10,7 +10,7 @@
         android:id="@+id/checkTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="48dp"
         android:layout_centerHorizontal="true"
         android:padding="12dp"
         android:textColor="@color/colorBaseText"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:textColor="@color/colorMainContentText"
-        android:textSize="16sp"
+        android:textSize="24sp"
         android:text="Hello World!"
         android:layout_below="@+id/checkTitle"/>
 
