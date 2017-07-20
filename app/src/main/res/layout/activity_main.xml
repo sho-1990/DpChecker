@@ -14,8 +14,20 @@
         android:layout_centerHorizontal="true"
         android:padding="12dp"
         android:textColor="@color/colorBaseText"
-        android:textSize="12sp"
+        android:textSize="16sp"
         android:text="@string/check_title"/>
+
+    <TextView
+        android:id="@+id/dpContentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:textColor="@color/colorBaseText"
+        android:textSize="12sp"
+        android:text="@string/dp_content_title"
+        android:layout_below="@+id/checkTitle"/>
     <TextView
         android:id="@+id/dpContent"
         android:layout_width="wrap_content"
@@ -24,6 +36,26 @@
         android:textColor="@color/colorMainContentText"
         android:textSize="24sp"
         android:text="Hello World!"
-        android:layout_below="@+id/checkTitle"/>
+        android:layout_below="@+id/dpContentTitle"/>
 
+    <TextView
+        android:id="@+id/dpContentNumTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:textColor="@color/colorBaseText"
+        android:textSize="12sp"
+        android:text="@string/dp_num_title"
+        android:layout_below="@+id/dpContent"/>
+    <TextView
+        android:id="@+id/dpContentNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorMainContentText"
+        android:textSize="24sp"
+        android:text="Hello World!"
+        android:layout_below="@+id/dpContentNumTitle"/>
 </RelativeLayout>
