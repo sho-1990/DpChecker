@@ -6,9 +6,9 @@ import android.util.DisplayMetrics
 import shosato.dpchecker.R
 
 /**
- * Created by sh.sato on 2017/07/20.
+ * densityから対応する出力用文字列、リソースIDを生成する
  */
-class DpStringGenerator {
+class DpOutputGenerator {
 
     val mMetricsMap:MutableMap<Int, Int> = mutableMapOf(
             DisplayMetrics.DENSITY_DEFAULT to R.string.density_default,
@@ -38,7 +38,7 @@ class DpStringGenerator {
         return mMetricsMap[density]
     }
 
-    fun getString(context : Context, density: Int): String? {
+    fun getString(context: Context, density: Int): String? {
         mMetricsMap[density]?.let {
             return context.resources.getString(it)
         } ?: return null
