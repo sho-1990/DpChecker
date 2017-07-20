@@ -19,4 +19,6 @@
     <string name="density_xhigh">xh dpi</string>
     <string name="density_xxhigh">xxh dpi</string>
     <string name="density_xxxhigh">xxxh dpi</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 </resources>
