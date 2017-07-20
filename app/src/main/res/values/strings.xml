@@ -1,14 +1,16 @@
 <resources>
     <string name="app_name">DpChecker</string>
-    <string name="check_title">この端末の解像度</string>
-    <string name="density_260">between hdpi and xhdpi</string>
-    <string name="density_280">between hdpi and xhdpi</string>
-    <string name="density_300">between hdpi and xhdpi</string>
-    <string name="density_340">between xhdpi and xxhdpi</string>
-    <string name="density_360">between xhdpi and xxhdpi</string>
-    <string name="density_400">between xhdpi and xxhdpi</string>
-    <string name="density_420">between xhdpi and xxhdpi</string>
-    <string name="density_560">between xxhdpi and xxxhdpi</string>
+    <string name="check_title">この端末の解像度情報</string>
+    <string name="dp_content_title">密度</string>
+    <string name="dp_num_title">密度数値</string>
+    <string name="density_260">hdpi 〜 xhdpi</string>
+    <string name="density_280">hdpi 〜 xhdpi</string>
+    <string name="density_300">hdpi 〜 xhdpi</string>
+    <string name="density_340">xhdpi 〜 xxhdpi</string>
+    <string name="density_360">xhdpi 〜 xxhdpi</string>
+    <string name="density_400">xhdpi 〜 xxhdpi</string>
+    <string name="density_420">xhdpi 〜 xxhdpi</string>
+    <string name="density_560">xxhdpi 〜 xxxhdpi</string>
     <string name="density_default">default dpi</string>
     <string name="density_high">hdpi</string>
     <string name="density_low">low dpi</string>
