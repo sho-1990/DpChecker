@@ -1,9 +1,9 @@
-package com.example.shosato.dpchecker.logic
+package shosato.dpchecker.logic
 
 import android.content.Context
 import android.os.Build
 import android.util.DisplayMetrics
-import com.example.shosato.dpchecker.R
+import shosato.dpchecker.R
 
 /**
  * Created by sh.sato on 2017/07/20.

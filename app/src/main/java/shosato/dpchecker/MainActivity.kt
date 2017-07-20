@@ -1,10 +1,10 @@
-package com.example.shosato.dpchecker
+package shosato.dpchecker
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.DisplayMetrics
 import android.widget.TextView
-import com.example.shosato.dpchecker.logic.DpStringGenerator
+import shosato.dpchecker.logic.DpStringGenerator
 
 class MainActivity : AppCompatActivity() {
 

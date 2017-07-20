@@ -1,4 +1,4 @@
-package com.example.shosato.dpchecker;
+package shosato.dpchecker;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.shosato.dpchecker", appContext.getPackageName());
+        assertEquals("shosato.dpchecker", appContext.getPackageName());
     }
 }

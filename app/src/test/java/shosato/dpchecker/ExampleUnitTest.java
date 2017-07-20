@@ -1,4 +1,4 @@
-package com.example.shosato.dpchecker;
+package shosato.dpchecker;
 
 import org.junit.Test;
 
