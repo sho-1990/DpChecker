@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "302835960496",
+    "firebase_url": "https://dpchecker-9ca9c.firebaseio.com",
+    "project_id": "dpchecker-9ca9c",
+    "storage_bucket": "dpchecker-9ca9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302835960496:android:d19614576a77a11d",
+        "android_client_info": {
+          "package_name": "shosato.dpchecker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302835960496-0cd1gumi85vtdur4fov61ttap8rl4hq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shosato.dpchecker",
+            "certificate_hash": "3d656af372f9665e5900418af88949eb59766a7e"
+          }
+        },
+        {
+          "client_id": "302835960496-irgj06qaq0v1145pbsvdmtdljnj3250f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT7KfvK9hKRkD21MiaBiekx450Nx2_Rt4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302835960496-irgj06qaq0v1145pbsvdmtdljnj3250f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
