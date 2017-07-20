@@ -60,13 +60,24 @@
         android:text="Hello World!"
         android:layout_below="@+id/dpContentNumTitle"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorBaseText"
+        android:textSize="12sp"
+        android:text="@string/check_info"
+        android:layout_below="@+id/dpContentNum"/>
+
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        ads:adSize="BANNER"
+        ads:adSize="SMART_BANNER"
         ads:adUnitId="@string/banner_ad_unit_id">
     </com.google.android.gms.ads.AdView>
 </RelativeLayout>

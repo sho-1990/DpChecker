@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">DpChecker</string>
     <string name="check_title">この端末の解像度情報</string>
+    <string name="check_info">解像度はadbコマンドで変更することが可能です。</string>
     <string name="dp_content_title">密度</string>
     <string name="dp_num_title">密度数値</string>
     <string name="density_260">hdpi 〜 xhdpi</string>
