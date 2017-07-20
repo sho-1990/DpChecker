@@ -7,7 +7,7 @@ import android.widget.TextView
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
-import shosato.dpchecker.logic.DpStringGenerator
+import shosato.dpchecker.logic.DpOutputGenerator
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         val dp = displayMetrics.densityDpi
 
-        val generator :DpStringGenerator = DpStringGenerator()
+        val generator : DpOutputGenerator = DpOutputGenerator()
         val dpContent = generator.getString(this, dp)
         val contentText: TextView = findViewById(R.id.dpContent) as TextView
         contentText.text = dpContent
