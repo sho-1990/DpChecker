@@ -18,6 +18,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+        flavor_release {
+            applicationId "shosato.dpchecker"
+        }
+        flavor_debug {
+            applicationId "shosato.dpchecker"
+        }
+    }
 }
 
 dependencies {
