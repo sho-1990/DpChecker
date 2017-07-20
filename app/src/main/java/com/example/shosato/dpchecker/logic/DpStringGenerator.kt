@@ -34,12 +34,14 @@ class DpStringGenerator {
         }
     }
 
-    public fun getId(density :Int): Int? {
+    fun getId(density :Int): Int? {
         return mMetricsMap[density]
     }
 
-    public fun getString(context : Context, density: Int): String? {
-        val id : Int = mMetricsMap[density] ?: return null
-        return context.resources.getString(id)
+    fun getString(context : Context, density: Int): String? {
+        mMetricsMap[density]?.let {
+            return context.resources.getString(it)
+        } ?: return null
+
     }
 }
