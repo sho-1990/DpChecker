@@ -38,7 +38,7 @@ class DpOutputGenerator {
         return mMetricsMap[density]
     }
 
-    fun getString(context : Context, density: Int): String? {
+    fun getString(context: Context, density: Int): String? {
         mMetricsMap[density]?.let {
             return context.resources.getString(it)
         } ?: return null

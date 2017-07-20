@@ -11,7 +11,7 @@ import shosato.dpchecker.logic.DpOutputGenerator
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var mAdView :AdView
+    lateinit var mAdView: AdView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         val dp = displayMetrics.densityDpi
 
-        val generator : DpOutputGenerator = DpOutputGenerator()
+        val generator: DpOutputGenerator = DpOutputGenerator()
         val dpContent = generator.getString(this, dp)
         val contentText: TextView = findViewById(R.id.dpContent) as TextView
         contentText.text = dpContent
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun loadAd() {
         mAdView = findViewById(R.id.adView) as AdView
-        val adRequest :AdRequest = AdRequest.Builder().build()
+        val adRequest: AdRequest = AdRequest.Builder().build()
         mAdView.loadAd(adRequest)
     }
 }
